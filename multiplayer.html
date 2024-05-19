@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta name="author" content="Aleksander Orzech">
+    <meta name="description" content="Dzialajaca gra Tic tac toe (nie w konsoli)">
+    <meta name="keywords" content="tictactoe, game, games, 2024, april">
+
+    <title>Tic Tac Toe (Multiplayer) by Orzech</title>
+
+    <link rel="icon" href="icon.png" type="image/x-icon">
+    <link rel="stylesheet" href="style.css" type="text/css">
+</head>
+<body>
+    <section>
+        <div id="container">
+            <div id="playerTurnH1"><span class="text-top">Czas na ruch </span><span id="playerTurnDisplay"></span><span class="text-top"> gracza.</span></div>
+            <table id="table">
+                <tr class="row">
+                    <td id="f1" class="field"></td>
+                    <td id="f2" class="field"></td>
+                    <td id="f3" class="field"></td>
+                </tr>
+    
+                <tr class="row">
+                    <td id="f4" class="field"></td>
+                    <td id="f5" class="field"></td>
+                    <td id="f6" class="field"></td>
+                </tr>
+    
+                <tr class="row">
+                    <td id="f7" class="field"></td>
+                    <td id="f8" class="field"></td>
+                    <td id="f9" class="field"></td>
+                </tr>
+            </table>
+            <div id="result"></div>
+            <button id="refreshBTN" onclick="window.location.reload();">Odswiez</button>
+        </div>
+    </section>
+    <script src="script.js"></script>
+</body>
+</html>

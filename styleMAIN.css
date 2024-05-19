@@ -1,0 +1,42 @@
+body {
+    background: url('main_menu.png');
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    color: #fff;
+
+    -webkit-user-select: none; /* Safari */
+    -moz-user-select: none; /* Firefox */
+    -ms-user-select: none; /* IE */
+    user-select: none;
+}
+::selection {
+    background-color: transparent;
+}
+#bot-difficulty {
+    font-size: 22px;
+    background-color: #424549;
+    text-align: center;
+    width: 360px;
+    height: 100px;
+}
+section {
+    margin-top: 150px;
+}
+#singleplayerBTN, #multiplayerBTN, #insaneBTN, #leaveBTN {
+    width: 300px;
+    height: 50px;
+    margin-top: 20px;
+    margin-left: 80px;
+    cursor: pointer;
+    background-color: #424549;
+    border: none;
+    color: #cccccc;
+    transition: all 0.5s 0.1s;
+}
+#singleplayerBTN:hover, #multiplayerBTN:hover, #insaneBTN:hover, #leaveBTN:hover {
+    background-color: #cccccc;
+    color: #424549;
+}
+.new {
+    color: #90ee90;
+}

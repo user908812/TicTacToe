@@ -1,0 +1,72 @@
+body {
+    background: url('background.png');
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    color: #fff;
+
+    -webkit-user-select: none; /* Safari */
+    -moz-user-select: none; /* Firefox */
+    -ms-user-select: none; /* IE */
+    user-select: none;
+}
+::selection {
+    background-color: transparent;
+}
+section {
+    margin-left: 25%;
+    margin-top: 50px;
+}
+#container {
+    background-color: #424549;
+    width: 600px;
+    height: 720px;
+    padding-top: 50px;
+    padding-left: 200px;
+}
+#playerTurnH1, #result, #bot-difficulty {
+    font-size: 22px;
+    background-color: #424549;
+    text-align: center;
+    width: 360px;
+    height: 100px;
+}
+#refreshBTN {
+    padding: 15px 50px;
+    cursor: pointer;
+    background-color: #313233;
+    color: #fff;
+    border: none;
+}
+td {
+    border: 2px solid #000;
+    width: 100px;
+    height: 110px;
+    background-color: #5c5e61;
+    color: #fff;
+    cursor: pointer;
+}
+.field {
+    padding-left: 15px;
+    font-size: 40px;
+}
+@media (min-width: 320px) and (max-width: 767px) {
+    #refreshBTN {
+        position: absolute;
+        top: 650px;
+        left: 370px;
+    }
+}
+@media (min-width: 768px) and (max-width: 1024px) {
+    #refreshBTN {
+        position: absolute;
+        top: 650px;
+        left: 470px;
+    }
+}
+@media (min-width: 1025px) {
+    #refreshBTN {
+        position: absolute;
+        top: 650px;
+        left: 780px;
+    }
+}
